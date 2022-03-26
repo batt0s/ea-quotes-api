@@ -4,7 +4,8 @@
 
 Requests ve BeautifulSoup4 ile sözü alıp FastAPI ile size ulaştıran çok basit bir program.
 
-[Deta](deta.sh) üzerinde yayınlandı: [ea-quotes.deta.dev](ea-quotes.deta.dev)
+[Deta](deta.sh) üzerinde yayınlandı: [ea-quotes.deta.dev](ea-quotes.deta.dev)  
+FastAPI tarafından oluşturulmuş dökümantasyona ulaşmak için : [Docs](https://ea-quotes.deta.dev/docs)
 
 Örnek response : 
 ```
