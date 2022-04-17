@@ -1,10 +1,10 @@
 # ea-quotes-api
 
-[Evrim Ağacı Sözler](evrimagaci.org/sozler) için resmi olmayan bir API.
+[Evrim Ağacı Sözler](https://evrimagaci.org/sozler) için resmi olmayan bir API.
 
 Requests ve BeautifulSoup4 ile sözü alıp FastAPI ile size ulaştıran çok basit bir program.
 
-[Deta](deta.sh) üzerinde yayınlandı: [ea-quotes.deta.dev](https://ea-quotes.deta.dev)  
+[Deta](https://deta.sh) üzerinde yayınlandı: [ea-quotes.deta.dev](https://ea-quotes.deta.dev)  
 FastAPI tarafından oluşturulmuş dökümantasyona ulaşmak için : [Docs](https://ea-quotes.deta.dev/docs)
 
 Rastgele bir söz almak için https://ea-quotes.deta.dev e GET request atmanız yeterli  
