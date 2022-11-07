@@ -4,16 +4,16 @@ baseUrl = "https://evrimagaci.org/sozler/"
 headers = {
     'User-Agent': 'ea-quote',
 }
-def getQuote(url = "rastgele"):
+def getQuote(url: str = "rastgele"):
     try:
         req = requests.get(baseUrl+url, headers=headers)
         html = req.text
         soup = BeautifulSoup(html, 'html.parser')
-        a = soup.find("a", class_="quote")
-        quote = a.contents[0].strip('\n')
-        link = a['href']
-        saidByDiv = soup.find("div", class_="title")
-        saidBy = saidByDiv.contents[0]
-        return quote, saidBy, link
+        blockquote = soup.find("blockquote", class_="quote")
+        quote = blockquote.contents[0].strip('\n')
+        link = req.url
+        authorDiv = soup.find("div", class_="quote-author")
+        author = authorDiv.contents[0]
+        return quote, author, link
     except:
-        return '','',''
+        return None, None, None
