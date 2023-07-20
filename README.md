@@ -4,7 +4,7 @@
 
 Requests ve BeautifulSoup4 ile sözü alıp FastAPI ile size ulaştıran çok basit bir program.
 
-[Deta](https://deta.sh) üzerinde yayınlandı: https://eaquotesapi-1-y2922670.deta.app/
+[Deta](https://deta.sh) üzerinde yayınlandı: https://eaquotesapi-1-y2922670.deta.app/ <br>
 FastAPI tarafından oluşturulmuş dökümantasyona ulaşmak için : [Docs](https://eaquotesapi-1-y2922670.deta.app/docs)
 
 Rastgele bir söz almak için https://eaquotesapi-1-y2922670.deta.app/ e GET request atmanız yeterli  
